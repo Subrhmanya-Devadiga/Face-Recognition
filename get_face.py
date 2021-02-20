@@ -24,6 +24,6 @@ def get_face():
         if key == 113:
             con.close()
             break
-        elif count>=100:
+        elif count>=50:
             print("Successfully Captured")
             break
